@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name" translatable="false">Suministra</string>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_home">Home</string>
+    <string name="nav_menu">Menu</string>
+    <string name="nav_specials">Specials</string>
+    <string name="nav_planning">Planning</string>
+    <string name="nav_statistics">Statistics</string>
+
+    <!-- Product Categories -->
+    <string name="category_fridge">Fridge</string>
+    <string name="category_pantry">Pantry</string>
+    <string name="category_drinks">Drinks</string>
+    <string name="category_home_cleaning">Home &amp; Cleaning</string>
+    <string name="category_specials">Specials</string>
+
+    <!-- General Actions -->
+    <string name="action_add">Add</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_ok">OK</string>
+    <string name="action_edit_item">Edit item</string>
+    <string name="action_mark_depleted">Mark depleted</string>
+    <string name="action_generate_list">Generate List</string>
+
+    <!-- Home / Dashboard -->
+    <string name="home_no_items">No stock items registered yet.</string>
+    <string name="home_generate_list_description">Generate a smart shopping list from depleted stock and items with 2 days or less remaining.</string>
+
+    <!-- Stock Status -->
+    <string name="status_depleted">Depleted</string>
+    <string name="status_its_over">It\'s Over!</string>
+    <string name="status_remaining">remaining</string>
+    <string name="status_no_estimate">No estimate</string>
+    <string name="status_no_history">No history</string>
+    <string name="status_urgent">Urgent</string>
+    <string name="status_never">Never</string>
+    <string name="status_days">days</string>
+    <string name="status_in_stock_now">in stock right now</string>
+    <string name="status_about">About</string>
+    <string name="status_check_freshness">Check freshness (15+ days in fridge)</string>
+
+    <!-- Category Screen -->
+    <string name="category_no_active_items">No active items in this section.</string>
+
+    <!-- Planning Screen -->
+    <string name="planning_category_label">Category: %s</string>
+    <string name="planning_avg_duration">Avg duration: %s days</string>
+    <string name="planning_days_since_purchase">Days since last purchase: %s</string>
+    <string name="planning_days_remaining">Days remaining: %s</string>
+
+    <!-- Specials Screen -->
+    <string name="specials_summary_title">Specials Summary</string>
+    <string name="specials_monthly_frequency">Monthly frequency: %s events</string>
+    <string name="specials_avg_food">Avg food: $%s</string>
+    <string name="specials_avg_drink">Avg drink: $%s</string>
+    <string name="specials_avg_transport">Avg transport: $%s</string>
+    <string name="specials_special_stock_title">Special Stock</string>
+    <string name="specials_no_events">No events registered.</string>
+    <string name="specials_food">Food: $%s</string>
+    <string name="specials_drink">Drink: $%s</string>
+    <string name="specials_transport">Transport: $%s</string>
+    <string name="specials_total">Total: $%s</string>
+
+    <!-- Statistics Screen -->
+    <string name="stats_duration_prices_title">Duration &amp; Prices</string>
+    <string name="stats_products_with_history">Products with history: %d</string>
+    <string name="stats_urgent_products">Urgent products: %d</string>
+    <string name="stats_recent_avg_price">Recent avg price: $%s</string>
+    <string name="stats_special_events_title">Special Events</string>
+    <string name="stats_avg_events_per_month">Avg events per month: %s</string>
+    <string name="stats_avg_cost_per_event">Avg cost per event: $%s</string>
+    <string name="stats_avg_cost_per_month">Avg cost per month on events: $%s</string>
+    <string name="stats_monthly_projection">Monthly projection: %s %s</string>
+    <string name="stats_last_price">Last price: $%s</string>
+
+    <!-- Product Form (Create / Refill / Edit) -->
+    <string name="form_create_title">Create New Item</string>
+    <string name="form_refill_title">Refill Existing</string>
+    <string name="form_edit_title">Edit Item</string>
+    <string name="form_field_name">Name</string>
+    <string name="form_field_quantity">Quantity</string>
+    <string name="form_field_unit">Unit</string>
+    <string name="form_field_price">Price</string>
+    <string name="form_field_last_price_paid">Last price paid:</string>
+    <string name="form_field_purchase_date">Purchase Date</string>
+    <string name="form_field_category">Category</string>
+    <string name="form_previous_stock_finished">Did the previous stock finish?</string>
+    <string name="form_yes">YES</string>
+    <string name="form_no">NO</string>
+
+    <!-- Entry Choice Dialog -->
+    <string name="entry_choice_title">Add Stock</string>
+    <string name="entry_choice_description">Choose how you want to register this stock entry.</string>
+    <string name="entry_choice_create_new">Create New Item</string>
+    <string name="entry_choice_refill_existing">Refill Existing</string>
+
+    <!-- Refill Picker Dialog -->
+    <string name="refill_picker_title">Refill Existing</string>
+    <string name="refill_no_items_yet">No items have been created yet.</string>
+
+    <!-- Special Event Form -->
+    <string name="special_form_title">Register Special Event</string>
+    <string name="special_form_field_food">Food</string>
+    <string name="special_form_field_drink">Drink</string>
+    <string name="special_form_field_transport">Transport</string>
+    <string name="special_form_field_activity_date">Activity Date</string>
+
+    <!-- Date Picker -->
+    <string name="date_picker_title">Pick date</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name_Planification">Planificación</string>
+    <string name="notification_channel_description_Planification">Reminder to review suggested purchases of the month</string>
+    <string name="notification_title_planification">Planning for the next month</string>
+    <string name="notification_text_planification">Review suggested purchases to cover the next month.</string>
+    <string name="category_pantry_staples">Pantry Staples</string>
+    <string name="category_dairy">Dairy</string>
+    <string name="category_carbs_grains">Carbs &amp; Grains</string>
+    <string name="category_produce">Produce</string>
+    <string name="category_proteins">Proteins</string>
+    <string name="category_others">Others</string>
+
+</resources>
